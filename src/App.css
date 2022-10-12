@@ -5,3 +5,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.services-section {
+  background: linear-gradient(90deg, #181818 50%, #111111 50%);
+}
+.service-card.active img {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
